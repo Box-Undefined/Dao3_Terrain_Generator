@@ -46,4 +46,11 @@
    运行后，一串列表已自动复制到你的剪贴板上
 
 3. **运行JS文件**
-   
+   在神奇代码岛（*dao3.fun*或*goboxgame.com*）中，将***main.js***复制到地图中运行
+   修改3，4行代码
+   ```
+   let size = 256; /* input map size */
+   let upper_height = 128; /* input upper height limit */
+   ```
+   将size修改为地图尺寸的x坐标或者z坐标上限，upper_height修改为地图y坐标上限
+   点击 开始 后等待片刻，观察运行效果，若卡顿明显
