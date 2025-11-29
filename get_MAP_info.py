@@ -2,7 +2,7 @@ from PIL import Image
 from pyperclip import copy
 from time import sleep
 
-map = Image.open('Python开发\地形编辑器\map.png')
+map = Image.open('map.png')
 size = 256    # Your map size(X axis or Z axis) input here(positive integer)
 ground = 5    # Your map Ground thickness(Y axis) input here(positive integer)
 scale = 4     # Your map Scale input here(positive integer)
@@ -17,3 +17,4 @@ for i in range(size):
 
 copy(voxel)
 print("Copied to clipboard successfully!")
+
