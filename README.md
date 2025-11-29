@@ -36,5 +36,14 @@
       ***
    当然你也可以选择制作平缓的地形，例如PS--滤镜--渲染--云，或者按照如上操作后添加 高斯模糊 滤镜；
 2. **运行Python文件**
+   修改*get_MAP_info.py*的6~8行
+   ```
+   size = 256    # Your map size(X axis or Z axis) input here(positive integer)
+   ground = 5    # Your map Ground thickness(Y axis) input here(positive integer)
+   scale = 4     # Your map Scale input here(positive integer)
+   ```
+   其中，修改size为地图尺寸，ground为地面（地图最低点）高度，scale为缩放高度，数值越大，高度越低，内容根据情况修改
+   运行后，一串列表已自动复制到你的剪贴板上
+
+3. **运行JS文件**
    
-4. **运行JS文件**
