@@ -1,7 +1,7 @@
 # 神奇代码岛（*dao3.fun*）地形生成🗺
 - 📄可自定义地形，**无算法，无种子**
 - 📟可以直接复制到控制台
-- 🗒地形数据使用***gat_MAP_info.py***运行文件为***main.js***
+- 🗒地形数据使用***get_MAP_info.py***运行文件为***main.js***
 - 🖥运行时，请在*dao3.fun/edit/xxx* 或 *goboxgame.com/edit/xxx*上运行
 
 ## 效果展示
@@ -37,7 +37,7 @@
 
         ![2-2](/png/PSstep2-2.png)
 
-   3. 💾使用文件--导出--**快去导出为PNG**进行导出（注意一定是快速导出为PNG，不然地形会变得坑坑洼洼）导出到与*gat_MAP_info.py*和*main.js*同一目录下
+   3. 💾使用文件--导出--**快去导出为PNG**进行导出（注意一定是快速导出为PNG，不然地形会变得坑坑洼洼）导出到与*get_MAP_info.py*和*main.js*同一目录下
    
         ![3](/png/PSstep3.png)
 
@@ -55,7 +55,7 @@
    
         ![3](/png/HSJstep4.png)
 
-   4. 🗂将*map.png*放置在与*gat_MAP_info.py*和*main.js*同一目录下
+   4. 🗂将*map.png*放置在与*get_MAP_info.py*和*main.js*同一目录下
       ***
    🔑当然你也可以选择制作平缓的地形，例如PS--滤镜--渲染--云，或者按照如上操作后添加 高斯模糊 滤镜
         ![2](/png/PSstep4.png)
