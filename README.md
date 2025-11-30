@@ -29,36 +29,36 @@
    ##### 用PhotoShop绘制
    1. ➕新建一个长为地图尺寸x，宽为地图尺寸z的空白图片
    
-        ![1](/PSstep1.png)
+        ![1](/png/PSstep1.png)
 
    2. ✏️使用调色板上的纯灰色，纯白色或纯黑色绘制地图，纯黑色(*#000000*)为地图最低处，纯白色(*#FFFFFF*)为地图最高点，用**铅笔工具**绘制地图
 
-        ![2-1](/PSstep2-1.png)
+        ![2-1](/png/PSstep2-1.png)
 
-        ![2-2](/PSstep2-2.png)
+        ![2-2](/png/PSstep2-2.png)
 
    3. 💾使用文件--导出--**快去导出为PNG**进行导出（注意一定是快速导出为PNG，不然地形会变得坑坑洼洼）导出到与*gat_MAP_info.py*和*main.js*同一目录下
    
-        ![3](/PSstep3.png)
+        ![3](/png/PSstep3.png)
 
    ##### 用画世界Pro绘制
    1. ➕新建一个长为地图尺寸x，宽为地图尺寸z的**像素画布**
    
-        ![1-1](/HSJstep1.png)
-        ![1-2](/HSJstep2.png)
+        ![1-1](/png/HSJstep1.png)
+        ![1-2](/png/HSJstep2.png)
 
    2. ✏️使用调色板上的纯灰色，纯白色或纯黑色绘制地图，纯黑色(*#000000*)为地图最低处，纯白色(*#FFFFFF*)为地图最高点，用**画笔--二值笔**绘制地图
    
-        ![2](/HSJstep3.png)
+        ![2](/png/HSJstep3.png)
 
    3. 💾导出为PNG并重命名为*map.png*
    
-        ![3](/HSJstep4.png)
+        ![3](/png/HSJstep4.png)
 
    4. 🗂将*map.png*放置在与*gat_MAP_info.py*和*main.js*同一目录下
       ***
    🔑当然你也可以选择制作平缓的地形，例如PS--滤镜--渲染--云，或者按照如上操作后添加 高斯模糊 滤镜
-        ![2](/PSstep4.png)
+        ![2](/png/PSstep4.png)
 2. **运行Python文件**
    📝修改*get_MAP_info.py*的6~8行
    ```
